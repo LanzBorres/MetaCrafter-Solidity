@@ -63,9 +63,20 @@ contract MetaSol {
 }
 
 ```
-To test the code, go to "Solidity Compiler" tab in the left-hand sidebar. Make sure the "Compiler" option is set to "0.8.4" (or another compatible version), and then click on the "MetaSol.sol" button.
+To test the code, follow these steps:
 
-Once the code is compiled, you can deploy the contract by clicking on the "Deploy & Run Transactions" tab in the left-hand sidebar. Select the "MetaSol" contract from the dropdown menu, and then click on the "Deploy" button.
+1. Open the "Solidity Compiler" tab in the left-hand sidebar.
+2. Ensure that the "Compiler" option is set to "0.8.18" (or another compatible version).
+3. Click the "compile MetaSol.sol" button to open the contract file.
+4. Once the code is compiled without any errors, proceed to deploy the contract.
+5. Switch to the "Deploy & Run Transactions" tab in the left-hand sidebar.
+6. From the dropdown menu, select the "MetaSol" contract.
+7. Click on the "Deploy" button to deploy the contract to the blockchain.
+8. Once the deployment is successful, you will see the "MetaSol" contract listed under "Deployed contracts".
+9. Click the arrow next to the contract to expand it and view its functions and variables.
+10. You can interact with the contract by using the provided functions such as "burn", "mint", "balances", "tokenAbbrv", "tokenName", and "totalSupply".
+11. To mint tokens, copy the Ethereum address from the "Account" section and paste it into the "mint" address field. Enter the desired token amount and click the "transact" button to verify the transaction.
+12. After minting tokens, you can check the updated "totalSupply" value by clicking on it in the contract interface. You can also check the token balance for a specific address by pasting the Ethereum address into the "balance" field.
+13. To burn tokens, click on the address field, paste the Ethereum address associated with the account holding the tokens, enter the desired amount to burn, and click the "transact" button to initiate the burning process.
 
-
-Once you see the "MetaSol" pop out in the Deployed contracts, go click the arrow then you will see the burn,mint,balances,tokenAbbrv,tokenName, and totalSupply. 
+By following these steps, you can test the functionalities of the contract, including minting tokens, checking balances, and burning tokens.
