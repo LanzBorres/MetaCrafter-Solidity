@@ -80,3 +80,5 @@ To test the code, follow these steps:
 13. To burn tokens, click on the address field, paste the Ethereum address associated with the account holding the tokens, enter the desired amount to burn, and click the "transact" button to initiate the burning process.
 
 By following these steps, you can test the functionalities of the contract, including minting tokens, checking balances, and burning tokens.
+
+## By: Lanz Benedict N. Borres
